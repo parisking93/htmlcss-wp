@@ -8,6 +8,15 @@ body{
     margin: auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
+/* COMMONS */
+.sfondo-nero{
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+.font-size18{
+    font-size: 18px;
+}
+/* FINE COMMONS */
 /* intestazione  */
 header{
     margin-bottom: 20px;
@@ -22,7 +31,6 @@ header nav{
     height: 70px;
     line-height: 70px;
     text-transform: uppercase;
-    font-size: 18px;
 }
 header nav li {
     list-style: none;
@@ -33,17 +41,36 @@ header nav li a{
     text-decoration: none;
     color: #999999;
 }
-
 /* fine intestazione  */
 /* corpo della pagina  */
 main{
     margin-bottom:10px;
 }
+/* jambotron */
 main .container-alto{
-    height: 400px;
-    background-color: blue;
+    height: 500px;
     margin-bottom: 20px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
+.container-alto .jambotron{
+    padding: 50px;
+    border-radius: 10px;
+}
+.container-alto .box-text{
+    width: 600px;
+    height: 100px;
+    color: #fcfbfb;
+    margin-top: 250px;
+}
+.container-alto span{
+    font-size: 30px;
+    line-height: 1.6;
+}
+/* fine jambotron */
+
 main .container-basso{
     height: 500px;
     background-color: green;
