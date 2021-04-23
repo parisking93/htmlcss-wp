@@ -65,7 +65,6 @@ main .container-alto{
 }
 .container-alto .box-text{
     width: 600px;
-    height: 100px;
     color: #fcfbfb;
     margin-top: 250px;
 }
@@ -76,7 +75,6 @@ main .container-alto{
 /* fine jambotron */
 
 .container-basso .leadership{
-    height: 20%;
     padding: 20px 0;
 }
 .leadership h1{
