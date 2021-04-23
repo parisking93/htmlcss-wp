@@ -130,5 +130,10 @@ main .container-alto{
 /* fine pagina  */
 footer{
     height: 70px;
-    background-color: rosybrown;
+    line-height: 70px;
+    text-align: center;
+}
+.cuore{
+    color: red;
+    font-size: 24px;
 }
