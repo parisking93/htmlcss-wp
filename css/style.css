@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80vw;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    height: 120px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+/* corpo della pagina  */
+main{
+    margin-bottom:10px;
+}
+main .container-alto{
+    height: 400px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+main .container-basso{
+    height: 500px;
+    background-color: green;
+}
+.container-basso .leadership{
+    height: 20%;
+    background-color: pink;
+}
+.container-basso .text{
+    height: calc(80% - 30px);
+    background-color: green;
+    margin: 15px 0;
+}
+/* prendo tutti i figli di text per floattarli    */
+.text > *{
+    height: 100%;
+    background-color: silver;
+    float: left;
+    font-size: 18px;
+    padding: 15px;
+    line-height: 1.6;
+
+}
+.text aside{
+    width: 25%;
+}
+.text section{
+    margin: 0 10px;
+    width: calc(50% - 20px);
+}
+.text::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine corpo della pagina */
+/* fine pagina  */
+footer{
+    height: 70px;
+    background-color: rosybrown;
+}
