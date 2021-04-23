@@ -16,6 +16,9 @@ body{
 .font-size18{
     font-size: 18px;
 }
+.color-font{
+    color: #999999;
+}
 /* FINE COMMONS */
 /* intestazione  */
 header{
@@ -73,15 +76,18 @@ main .container-alto{
 
 main .container-basso{
     height: 500px;
-    background-color: green;
 }
 .container-basso .leadership{
     height: 20%;
-    background-color: pink;
+    padding: 20px 0;
+}
+.leadership h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 1;
 }
 .container-basso .text{
     height: calc(80% - 30px);
-    background-color: green;
     margin: 15px 0;
 }
 /* prendo tutti i figli di text per floattarli    */
@@ -89,8 +95,6 @@ main .container-basso{
     height: 100%;
     background-color: silver;
     float: left;
-    font-size: 18px;
-    padding: 15px;
     line-height: 1.6;
 
 }
