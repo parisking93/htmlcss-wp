@@ -19,6 +19,9 @@ body{
 .color-font{
     color: #999999;
 }
+.radio10px{
+    border-radius: 10px;
+}
 /* FINE COMMONS */
 /* intestazione  */
 header{
@@ -56,11 +59,9 @@ main .container-alto{
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
 }
 .container-alto .jambotron{
     padding: 50px;
-    border-radius: 10px;
 }
 .container-alto .box-text{
     width: 600px;
@@ -74,9 +75,6 @@ main .container-alto{
 }
 /* fine jambotron */
 
-main .container-basso{
-    height: 500px;
-}
 .container-basso .leadership{
     height: 20%;
     padding: 20px 0;
@@ -93,10 +91,28 @@ main .container-basso{
 /* prendo tutti i figli di text per floattarli    */
 .text > *{
     height: 100%;
-    background-color: silver;
     float: left;
     line-height: 1.6;
+}
+.text .img{
+    height: 250px;
+    border-radius: 10px;
+}
+.text .img.sinistra{
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text .img.centro{
+    background-image: url(../img/banner-2.jpg);
+    background-size: 120%;
+    background-position: center;
 
+}
+.text .img.destra{
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .text aside{
     width: 25%;
