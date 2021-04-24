@@ -102,7 +102,7 @@ main .container-alto{
     background-position: center;
 }
 .text .img.centro{
-    background-image: url(../img/banner-2.jpg);
+    background-image: url(../img/img-2.jpg);
     background-size: 120%;
     background-position: center;
 
@@ -112,13 +112,36 @@ main .container-alto{
     background-size: cover;
     background-position: center;
 }
-.text aside{
-    width: 25%;
-}
 .text section{
-    margin: 0 10px;
-    width: calc(50% - 20px);
+    width: calc(100% / 3 - 20px);
 }
+.text section.centrale{
+    margin: 0 30px;
+}
+.text .descrizione{
+    padding: 10px;
+
+}
+.cointainer-avatar{
+    margin-top: 20px;
+}
+.text .descrizione img{
+    border-radius: 50%;
+    height: 42px;
+    line-height: 24px;
+}
+.text .descrizione .data{
+    display: inline-block;
+    padding-right: 20px;
+    border-right: 1px solid #ebebeb;
+    line-height: 42px;
+    margin-right: 20px;
+}
+
+.allineamento{
+    vertical-align: middle;
+}
+
 .text::after{
     content: "";
     display: table;
