@@ -22,6 +22,9 @@ body{
 .radio10px{
     border-radius: 10px;
 }
+.allineamento{
+    vertical-align: middle;
+}
 /* FINE COMMONS */
 /* intestazione  */
 header{
@@ -137,11 +140,10 @@ main .container-alto{
     line-height: 42px;
     margin-right: 20px;
 }
-
-.allineamento{
-    vertical-align: middle;
+.text .descrizione .cointainer-avatar strong{
+    padding: 0 5px 0 2px;
+    color: black;
 }
-
 .text::after{
     content: "";
     display: table;
