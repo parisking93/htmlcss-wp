@@ -68,6 +68,7 @@ header nav li {
 header nav li a{
     text-decoration: none;
     color: #999999;
+    transition: all 0.3s ease-in-out;
 }
 /* fine intestazione  */
 /* corpo della pagina  */
@@ -77,9 +78,10 @@ main{
 /* jambotron */
 main .container-alto{
     height: 500px;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner-bonus.jpg);
     background-size: cover;
     background-position: center;
+    transition: all 0.3s ease-in-out;
 }
 .container-alto .jambotron{
     padding: 50px;
@@ -119,6 +121,7 @@ main .container-alto{
 .text .img{
     height: 250px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
 }
 /* IMG PRIMA RIGA  */
 .text .img.sinistra{
