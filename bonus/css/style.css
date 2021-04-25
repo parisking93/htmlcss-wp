@@ -29,6 +29,13 @@ body{
     height: 110px;
     overflow: auto;
 }
+.animazione:hover{
+    margin: -5px -5px 5px -5px;
+    cursor: pointer;
+}
+.animazione-font:hover{
+    font-size: 102%;
+}
  /* Hide scrollbar for Chrome, Safari */
  .hidescroll::-webkit-scrollbar {
     display: none;
@@ -70,7 +77,6 @@ main{
 /* jambotron */
 main .container-alto{
     height: 500px;
-    margin-bottom: 20px;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -88,7 +94,9 @@ main .container-alto{
     line-height: 1.6;
 }
 /* fine jambotron */
-
+.container-basso{
+    padding-top: 20px;
+}
 .container-basso .leadership{
     padding: 20px 0;
 }
@@ -99,7 +107,7 @@ main .container-alto{
 }
 .container-basso .text{
     height: calc(80% - 30px);
-    margin: 15px 0;
+    margin: 50px 0px;
 }
 /* prendo tutti i figli di text per floattarli    */
 .text > *{
@@ -179,4 +187,3 @@ main .container-alto{
     clear: both;
 }
 /* fine corpo della pagina */
-
