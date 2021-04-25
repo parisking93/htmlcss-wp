@@ -25,6 +25,18 @@ body{
 .allineamento{
     vertical-align: middle;
 }
+.overflow-auto110{
+    height: 110px;
+    overflow: auto;
+}
+ /* Hide scrollbar for Chrome, Safari */
+ .hidescroll::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for Firefox */
+  .hidescroll{
+    scrollbar-width: none;  /* Firefox */
+  } 
 /* FINE COMMONS */
 /* intestazione  */
 header{
@@ -95,10 +107,12 @@ main .container-alto{
     float: left;
     line-height: 1.6;
 }
+
 .text .img{
     height: 250px;
     border-radius: 10px;
 }
+/* IMG PRIMA RIGA  */
 .text .img.sinistra{
     background-image: url(../img/img-1.jpg);
     background-size: cover;
@@ -115,6 +129,21 @@ main .container-alto{
     background-size: cover;
     background-position: center;
 }
+/* FINE IMG PRIMA RIGA  */
+/* IMG SECONDA RIGA  */
+.text .img.sinistra.riga2{
+    background-image: url(../img/img-4.jpg);
+}
+.text .img.centro.riga2{
+    background-image: url(../img/img-5.jpg);
+    background-size: cover;
+}
+.text .img.destra.riga2{
+    background-image: url(../img/img-6.jpg);
+    background-size: cover;
+
+}
+/* FINE IMG SECONDA RIGA  */
 .text section{
     width: calc(100% / 3 - 20px);
 }
@@ -150,13 +179,4 @@ main .container-alto{
     clear: both;
 }
 /* fine corpo della pagina */
-/* fine pagina  */
-footer{
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-}
-.cuore{
-    color: red;
-    font-size: 24px;
-}
+
